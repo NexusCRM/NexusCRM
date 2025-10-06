@@ -1,16 +1,29 @@
-## Hi there 👋
+# README principal
+@'
+# 🚀 NexusCRM - Modern CRM SaaS Platform
 
-<!--
-**NexusCRM/NexusCRM** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![Django](https://img.shields.io/badge/Django-4.2-green.svg)](https://djangoproject.com)
+[![Vue.js](https://img.shields.io/badge/Vue.js-3.3-blue.svg)](https://vuejs.org)
 
-Here are some ideas to get you started:
+**NexusCRM** is a modern, multi-tenant CRM platform built with Django and Vue.js.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## ✨ Features
+- 🏢 Multi-tenant Architecture
+- 📊 Visual Sales Pipeline  
+- 🤖 AI-Powered Insights
+- 💰 Stripe Billing
+- 📈 Real-time Analytics
+
+## 🚀 Quick Start
+
+```bash
+# Backend
+cd backend
+pip install -r requirements/development.txt
+python manage.py migrate
+python manage.py runserver
+
+# Frontend
+cd frontend
+npm install
+npm run dev
